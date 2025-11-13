@@ -1,0 +1,118 @@
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px 80px;
+  background: linear-gradient(180deg, #fff6f8, #ffeef1, #fff);
+  color: #5a4545;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.product-details-image {
+  flex: 1;
+  max-width: 550px;
+}
+
+.product-details-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(247, 169, 180, 0.25);
+  border: 2px solid #f7a9b4;
+  background: #fff;
+}
+
+.product-details-info {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.8;
+  color: #5a4545;
+}
+
+.product-title {
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  color: #b44b63;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.product-category {
+  font-size: 1.1rem;
+  color: #ec8ca1;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #5a4545;
+  text-align: justify;
+  margin-bottom: 30px;
+  background: #fff0f5;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #f7a9b4;
+}
+
+.product-specs {
+  background: #fff;
+  border: 2px solid #f7a9b4;
+  padding: 20px 25px;
+  border-radius: 16px;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(247, 169, 180, 0.15);
+}
+
+.product-specs h3 {
+  color: #b44b63;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.product-specs p {
+  margin: 6px 0;
+  color: #5a4545;
+}
+
+.product-purchase {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff0f5;
+  border: 1.5px solid #f7a9b4;
+  padding: 18px 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(247, 169, 180, 0.15);
+}
+
+.product-purchase span {
+  font-size: 1.2rem;
+  color: #b44b63;
+  font-weight: 700;
+}
+
+.add-to-cart-btn {
+  background: linear-gradient(135deg, #f7a9b4, #ffd6d9);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(247, 169, 180, 0.3);
+}
+
+
